@@ -14,6 +14,8 @@
 		6FC9A43D1D6157980058FE32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9A43B1D6157980058FE32 /* LaunchScreen.storyboard */; };
 		6FC9A4481D6157980058FE32 /* SCNShadableBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9A4471D6157980058FE32 /* SCNShadableBugTests.swift */; };
 		6FC9A4531D6157980058FE32 /* SCNShadableBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9A4521D6157980058FE32 /* SCNShadableBugUITests.swift */; };
+		6FC9A4611D6158010058FE32 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9A4601D6158010058FE32 /* SceneController.swift */; };
+		6FC9A4631D615B520058FE32 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9A4621D615B520058FE32 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6FC9A44E1D6157980058FE32 /* SCNShadableBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCNShadableBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC9A4521D6157980058FE32 /* SCNShadableBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNShadableBugUITests.swift; sourceTree = "<group>"; };
 		6FC9A4541D6157980058FE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC9A4601D6158010058FE32 /* SceneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneController.swift; sourceTree = "<group>"; };
+		6FC9A4621D615B520058FE32 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				6FC9A4321D6157980058FE32 /* AppDelegate.swift */,
 				6FC9A4341D6157980058FE32 /* ViewController.swift */,
+				6FC9A4601D6158010058FE32 /* SceneController.swift */,
 				6FC9A4361D6157980058FE32 /* Main.storyboard */,
+				6FC9A4621D615B520058FE32 /* test.png */,
 				6FC9A4391D6157980058FE32 /* Assets.xcassets */,
 				6FC9A43B1D6157980058FE32 /* LaunchScreen.storyboard */,
 				6FC9A43E1D6157980058FE32 /* Info.plist */,
@@ -238,6 +244,7 @@
 				6FC9A43D1D6157980058FE32 /* LaunchScreen.storyboard in Resources */,
 				6FC9A43A1D6157980058FE32 /* Assets.xcassets in Resources */,
 				6FC9A4381D6157980058FE32 /* Main.storyboard in Resources */,
+				6FC9A4631D615B520058FE32 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +271,7 @@
 			files = (
 				6FC9A4351D6157980058FE32 /* ViewController.swift in Sources */,
 				6FC9A4331D6157980058FE32 /* AppDelegate.swift in Sources */,
+				6FC9A4611D6158010058FE32 /* SceneController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V25XX8Q7L2;
 				INFOPLIST_FILE = SCNShadableBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.papero.360PlayerSwift.SCNShadableBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V25XX8Q7L2;
 				INFOPLIST_FILE = SCNShadableBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.papero.360PlayerSwift.SCNShadableBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";

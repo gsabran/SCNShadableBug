@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import SceneKit
 
 class ViewController: UIViewController {
+    var sceneController: SceneController!
 
+    @IBOutlet weak var sceneKitView: SCNView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        sceneController = SceneController(view: sceneKitView)
     }
 
     override func didReceiveMemoryWarning() {
